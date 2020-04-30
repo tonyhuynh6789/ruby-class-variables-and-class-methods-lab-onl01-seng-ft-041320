@@ -33,11 +33,10 @@ class Song
   
   def self.genre_count
     
-    genre_count = {{
+    genre_count = {}
     
     @@genres.each do |genre|
-      if song.include?(genre_name)
-        genre_name += 1
+      if genre_count[genre] += 1
       else 
         song[genre_name] = num_song
       end 
