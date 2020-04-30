@@ -21,12 +21,12 @@ class Song
   end 
   
   
-  def self.genres(genre)
+  def self.genres
     @@genres.unless @@genres.not_include?(genre)
   end   
   
   
-  def self.artists(artist)
+  def self.artists
     @@artists.unless @@genres.not_include?(artist) 
   end 
   
