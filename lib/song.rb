@@ -23,8 +23,8 @@ class Song
     @@genres.unless @@genres.not_include?(genre)
   end   
   
-  def self.artists(genre)
-    @@artists.unless 
+  def self.artists(artist)
+    @@artists.unless @@genres.not_include?(artist) 
   end 
   
 end 
