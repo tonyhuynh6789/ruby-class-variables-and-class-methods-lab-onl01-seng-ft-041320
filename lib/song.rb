@@ -41,7 +41,7 @@ class Song
       else 
          genre_count[genre] = 1
       end 
-      song
+    end 
     end 
   end 
 end 
