@@ -22,7 +22,7 @@ class Song
   
   
   def self.genres
-    @@genres.unless @@genres.include?(genre)
+    @@genres.uniq
   end   
   
   
