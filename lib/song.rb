@@ -16,6 +16,6 @@ class Song
   end 
   
   def self.genres
-    Song.genre
+    Song.genre.unless Song.not_include?(genre)
   end   
 end 
