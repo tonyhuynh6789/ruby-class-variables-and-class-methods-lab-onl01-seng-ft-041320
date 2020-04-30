@@ -46,4 +46,6 @@ end
     @@artists.uniq
   end 
   
+  def self.artist_count 
+  end 
   
