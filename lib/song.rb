@@ -32,9 +32,13 @@ class Song
   
   
   def self.genre_count
+    
     song = {}
     
     @@genres.each do |genre_name, num_song|
+      if song.include?(genre_name)
+        genre_name += 1
+      else 
       song[genre_name] = num_song
     end 
     song
