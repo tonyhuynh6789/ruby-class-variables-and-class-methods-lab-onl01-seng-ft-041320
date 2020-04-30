@@ -35,7 +35,7 @@ class Song
     song = {}
     
     @@genres.each do |genre_name, num_song|
-      song[genre_name] = s
+      song[genre_name] = num_song
     end 
     song
   end 
