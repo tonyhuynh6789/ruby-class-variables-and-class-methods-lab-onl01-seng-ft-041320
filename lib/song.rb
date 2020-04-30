@@ -21,7 +21,7 @@ class Song
   end 
   
   
-  def self.genres
+  def self.genres(genre)
     @@genres.unless @@genres.include?(genre)
   end   
   
