@@ -23,7 +23,7 @@ class Song
     @@genres.unless @@genres.not_include?(genre)
   end   
   
-  def self.artists
+  def self.artists(genre)
     @@artists.unless 
   end 
   
