@@ -35,7 +35,7 @@ class Song
     
     genre_count = {{
     
-    @@genres.each do |genre_name, num_song|
+    @@genres.each do |genre|
       if song.include?(genre_name)
         genre_name += 1
       else 
