@@ -39,7 +39,7 @@ class Song
       if song.include?(genre_name)
         genre_name += 1
       else 
-      song[genre_name] = num_song
+        song[genre_name] = num_song
     end 
     song
   end 
