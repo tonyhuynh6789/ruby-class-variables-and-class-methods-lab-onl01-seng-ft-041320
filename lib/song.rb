@@ -46,3 +46,4 @@ end
     @@artists.uniq
   end 
   
+  
