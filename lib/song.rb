@@ -27,6 +27,10 @@ class Song
     @@artists.unless @@genres.not_include?(artist) 
   end 
   
-  def self.genre_count(genre, song)
+  def self.genre_count(genre_name, num_song )
+    
+    song = {}
+    
+    
   end 
 end 
