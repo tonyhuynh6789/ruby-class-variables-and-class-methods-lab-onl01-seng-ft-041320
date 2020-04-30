@@ -21,5 +21,7 @@ class Song
     @@genres.unless @@genres.not_include?(genre)
   end   
   
+  def self.artist
+  end 
   
 end 
